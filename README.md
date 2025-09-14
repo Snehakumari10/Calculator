@@ -20,7 +20,7 @@ A simple and responsive calculator built using HTML, CSS, and JavaScript. It sup
 ## 🛠️ Technologies Used
 - **HTML5** – Structure  
 - **CSS3** – Styling & layout  
-- **JavaScript ** – functionality and logic
+- **JavaScript** – functionality and logic
 
 
 
