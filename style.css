@@ -1,0 +1,115 @@
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            padding: 20px;
+        }
+        
+        .calculator {
+            background-color: #22252d;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            width: 320px;
+            overflow: hidden;
+        }
+        
+        .display {
+            background-color: #22252d;
+            color: white;
+            padding: 30px 20px 20px;
+            text-align: right;
+        }
+        
+        .previous-operand {
+            min-height: 24px;
+            font-size: 18px;
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 5px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .current-operand {
+            min-height: 40px;
+            font-size: 36px;
+            font-weight: 500;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .buttons {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 1px;
+            background-color: #292d36;
+            padding: 20px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        
+        button {
+            border: none;
+            outline: none;
+            padding: 18px 10px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: #2a2d37;
+            color: white;
+            transition: all 0.2s ease;
+        }
+        
+        button:hover {
+            background-color: #363b47;
+            transform: scale(1.05);
+        }
+        
+        button:active {
+            background-color: #414754;
+            transform: scale(0.95);
+        }
+        
+        .operator {
+            color: #e86c6c;
+            font-weight: bold;
+        }
+        
+        .equals {
+            color: #2e9ffa;
+            font-weight: bold;
+        }
+        
+        .function {
+            color: #26fed7;
+        }
+        
+        .ac {
+            color: #ff6b6b;
+            font-weight: bold;
+        }
+        
+        .zero {
+            grid-column: span 2;
+            border-bottom-left-radius: 10px;
+        }
+        
+        .equals {
+            border-bottom-right-radius: 10px;
+        }
+        
+        .calculator-brand {
+            text-align: center;
+            color: white;
+            padding: 10px;
+            background-color: #22252d;
+            font-size: 14px;
+            opacity: 0.7;
+        }
